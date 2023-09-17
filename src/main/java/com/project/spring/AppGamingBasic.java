@@ -1,12 +1,13 @@
 package com.project.spring;
 
 import com.project.spring.game.MarioGame;
+import com.project.spring.game.SuperContraGame;
 
 public class AppGamingBasic {
     public static void main(String[] args){
-        //GameRunner gameRunner = new GameRunner();
         var marioGame = new MarioGame();
-        var gameRunner = new GameRunner(marioGame);
+        var superContraGame =  new SuperContraGame();
+        var gameRunner = new GameRunner(superContraGame);
         gameRunner.run();
     }
 }

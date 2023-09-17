@@ -1,10 +1,11 @@
 package com.project.spring;
 
 import com.project.spring.game.MarioGame;
+import com.project.spring.game.SuperContraGame;
 
 public class GameRunner {
-    MarioGame game;
-    public GameRunner(MarioGame marioGame) {
+    SuperContraGame game;
+    public GameRunner(SuperContraGame marioGame) {
         this.game=marioGame;
     }
     public void run() {
