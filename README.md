@@ -40,3 +40,4 @@ Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
 
 ## What if multiple matching beans
 @Primary annotation to mention which one to use
+Use @Qualifier("") in declaration of Beans and mentionn Qualifier in auto wiring parameter
