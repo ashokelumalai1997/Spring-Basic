@@ -34,3 +34,9 @@ Spring uses IOC container (Bean Factory or Application Context) to manage these 
 
 POJO
 No constraints. Any Java Object is a POJO
+
+## How can I list Beans managed by Spring context
+Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
+
+## What if multiple matching beans
+@Primary annotation to mention which one to use
